@@ -1,0 +1,32 @@
+body, html {
+  scroll-behavior: smooth;
+  background: lightgray;
+}
+
+.nav {
+  background: white;
+  height: 100%;
+  width: 12.5%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav h1 {
+  font-size: 20px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 50%;
+  border-bottom: 2px solid black;
+}
+.nav li {
+  padding: 14px 14px;
+}
+.nav .txt-nav {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 5px 10px;
+}/*# sourceMappingURL=style.css.map */
