@@ -95,6 +95,9 @@ body, html {
   border-radius: 10px;
   border: 1px solid black;
 }
+.btn:hover {
+  filter: contrast(50);
+}
 
 .content .top {
   top: 0;
@@ -217,4 +220,89 @@ body, html {
 }
 .content .none .dashboard .cards .row-1 .card-3 {
   flex: 1;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars {
+  display: flex;
+  flex-direction: column;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money .fa-solid {
+  padding: 10px 10px;
+  font-size: 30px;
+  color: blue;
+  background: lightblue;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money .txt {
+  width: 100%;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money .txt a {
+  font-size: 18px;
+  padding: 2px 3px;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money .txt .bar1 {
+  margin: 5px 5px;
+  background: lightblue;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .money .txt .moneyBar {
+  width: 45%;
+  font-size: 15px;
+  background-color: blue;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects .fa-solid {
+  padding: 10px 10px;
+  font-size: 30px;
+  color: rgb(187, 159, 0);
+  background: rgb(250, 250, 81);
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects .txt {
+  padding: 5px 5px;
+  width: 100%;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects .txt a {
+  font-size: 18px;
+  padding: 2px 3px;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects .txt .bar2 {
+  background: rgb(250, 250, 81);
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .projects .txt .pro {
+  width: 45%;
+  font-size: 15px;
+  background-color: rg;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team .fa-solid {
+  padding: 10px 10px;
+  font-size: 30px;
+  color: green;
+  background: lightgreen;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team .txt {
+  width: 100%;
+  margin: 5px 5px;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team .txt a {
+  font-size: 18px;
+  padding: 2px 3px;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team .txt .bar3 {
+  background: lightgreen;
+}
+.content .none .dashboard .cards .row-1 .card-3 .bars .team .txt .teamm {
+  width: 45%;
+  font-size: 15px;
+  background-color: green;
 }/*# sourceMappingURL=style.css.map */

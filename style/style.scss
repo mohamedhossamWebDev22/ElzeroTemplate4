@@ -109,6 +109,11 @@ body,html{
 
     border-radius: 10px;
     border: 1px solid black;
+
+    &:hover{
+        -webkit-filter: contrast(50);
+        filter: contrast(50);
+    }
 }
 
 .content{
@@ -264,6 +269,119 @@ body,html{
                     }
                     .card-3{
                         flex: 1;
+
+                        .bars{
+                            display: flex;
+
+                            flex-direction: column;
+                            .money{
+                                display: flex;
+
+                                flex-direction: row;
+                                align-items: center;
+
+                                .fa-solid{
+                                    padding: 10px 10px;
+
+                                    font-size: 30px;
+
+                                    color: blue;
+                                    background: lightblue;
+                                }
+
+                                .txt{
+                                    width: 100%;
+                                    a{
+                                        font-size: 18px;
+
+                                        padding: 2px 3px;
+                                    }
+                                    .bar1{
+                                        margin: 5px 5px;
+
+                                        background: lightblue;
+                                    }
+                                    .moneyBar{
+                                        width: 45%;
+
+                                        font-size: 15px;
+
+                                        background-color: blue;
+                                    }
+                                }
+                            }
+                            .projects{
+                                display: flex;
+
+                                flex-direction: row;
+                                align-items: center;
+
+                                .fa-solid{
+                                    padding: 10px 10px;
+
+                                    font-size: 30px;
+
+                                    color: rgb(187, 159, 0);
+                                    background: rgb(250, 250, 81);
+                                }
+
+                                .txt{
+                                    padding: 5px 5px;
+                                    width: 100%;
+                                    a{
+                                        font-size: 18px;
+
+                                        padding: 2px 3px;
+                                    }
+                                    .bar2{
+                                        background: rgb(250, 250, 81);
+                                    }
+                                    .pro{
+                                        width: 45%;
+
+                                        font-size: 15px;
+
+                                        background-color: rg;
+                                    }
+                                }
+                            }
+                            .team{
+                                display: flex;
+
+                                flex-direction: row;
+                                align-items: center;
+
+                                .fa-solid{
+                                    padding: 10px 10px;
+
+                                    font-size: 30px;
+
+                                    color: green;
+                                    background: lightgreen;
+                                }
+
+                                .txt{
+                                    width: 100%;
+
+                                    margin: 5px 5px;
+                                    a{
+                                        font-size: 18px;
+
+                                        padding: 2px 3px;
+                                    }
+                                    .bar3{
+                                        background: lightgreen;
+                                    }
+                                    .teamm{
+                                        width: 45%;
+
+                                        font-size: 15px;
+
+                                        background-color: green;
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
