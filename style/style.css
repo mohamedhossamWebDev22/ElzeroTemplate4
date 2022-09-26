@@ -188,8 +188,9 @@ body, html {
   justify-content: center;
   align-items: center;
   padding: 14px 10px;
-  background-color: gray;
-  border: 0.5px solid black;
+  background-color: white;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
 }
 .content .none .dashboard .cards .row-1 .card-1 .txt .one .b h3 {
   font-size: 15px;

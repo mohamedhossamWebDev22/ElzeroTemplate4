@@ -229,9 +229,10 @@ body,html{
 
                                     padding: 14px 10px;
 
-                                    background-color: gray;
+                                    background-color: white;
 
-                                    border: 0.5px solid black;
+                                    border-top: 0.5px solid black;
+                                    border-bottom: 0.5px solid black;
                                     h3{
                                         @include font(15px, sans-serif);
                                         font-weight: lighter;
