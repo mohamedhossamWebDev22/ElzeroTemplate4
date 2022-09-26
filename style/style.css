@@ -18,7 +18,7 @@ body, html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 1px 0px 20px black;
+  box-shadow: 1px 0px 10px black;
   z-index: 999999999;
   -webkit-animation: navWHovR 1s;
           animation: navWHovR 1s;
@@ -85,6 +85,17 @@ body, html {
     width: 10%;
   }
 }
+.btn {
+  float: right;
+  margin: 10px 10px;
+  background-color: rgb(0, 68, 255);
+  color: white;
+  font-size: 20px;
+  padding: 5px 8px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
 .content .top {
   top: 0;
   right: 0;
@@ -97,7 +108,7 @@ body, html {
   align-items: center;
   padding: 5px 5px;
   background-color: white;
-  box-shadow: 0px 2px 10px black;
+  box-shadow: 0px 2px 5px black;
 }
 .content .top img {
   width: 40px;
@@ -136,16 +147,25 @@ body, html {
   display: flex;
   flex-direction: row;
 }
+.content .none .dashboard .cards .card {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin: 10px 10px;
+}
 .content .none .dashboard .cards .row-1 .card-1 {
   background-color: white;
-  border-radius: 30px;
+  flex: 1;
+  border-radius: 10px;
   border: 2px solid white;
 }
 .content .none .dashboard .cards .row-1 .card-1 .image {
   background-color: lightgray;
   margin: 5px 5px;
-  border-top-right-radius: 30px;
-  border-top-left-radius: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .content .none .dashboard .cards .row-1 .card-1 .ava {
   height: 100px;
@@ -157,4 +177,44 @@ body, html {
 .content .none .dashboard .cards .row-1 .card-1 .txt .one {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.content .none .dashboard .cards .row-1 .card-1 .txt .one .b {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 10px;
+  background-color: gray;
+  border: 0.5px solid black;
+}
+.content .none .dashboard .cards .row-1 .card-1 .txt .one .b h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.content .none .dashboard .cards .row-1 .card-1 .txt .one .b p {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.content .none .dashboard .cards .row-1 .card-2 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-1 .card-2 input {
+  background: rgb(182, 182, 182);
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.content .none .dashboard .cards .row-1 .card-2 .txtBox {
+  font-size: 15px;
+  font-family: sans-serif;
+  background: rgb(182, 182, 182);
+  margin-top: 2%;
+  resize: none;
+  padding: 14px 10px;
+  border-radius: 10px;
+}
+.content .none .dashboard .cards .row-1 .card-3 {
+  flex: 1;
 }/*# sourceMappingURL=style.css.map */

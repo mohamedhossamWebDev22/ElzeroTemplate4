@@ -1,4 +1,4 @@
-$bg-color : rgb(238, 238, 238);
+@import './variables.scss';
 
 @mixin font($size, $family) {
     font-size: $size;
@@ -34,7 +34,7 @@ body,html{
 
     align-items: center;
 
-    box-shadow: 1px 0px 20px black;
+    box-shadow: 1px 0px 10px black;
 
     z-index: 999999999;
 
@@ -95,6 +95,22 @@ body,html{
     }
 }
 
+.btn{
+    float: right;
+
+    margin: 10px 10px;
+
+    background-color: $btn-bg;
+    color: white;
+
+    font-size: 20px;
+
+    padding: 5px 8px;
+
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
 .content{
     .top{
         top: 0;
@@ -114,7 +130,7 @@ body,html{
 
         background-color: white;
 
-        box-shadow: 0px 2px 10px black;
+        box-shadow: 0px 2px 5px black;
         img{
             width: 40px;
             height: 40px;
@@ -162,18 +178,30 @@ body,html{
 
                     flex-direction: row;
                 }
+                .card{
+                    @include font(20px, sans-serif);
+                    background-color: white;
+
+                    border-radius: $border-r;
+
+                    padding: 5px 10px;
+                    margin: 10px 10px;
+                }
+
                 .row-1{
                     .card-1{
                         background-color: white;
 
-                        border-radius: 30px;
+                        flex: 1;
+
+                        border-radius: $border-r;
                         border: 2px solid white;
                         .image{
                             background-color: lightgray;
                             margin: 5px 5px;
 
-                            border-top-right-radius: 30px;
-                            border-top-left-radius: 30px;
+                            border-top-right-radius: 10px;
+                            border-top-left-radius: 10px;
                         }
                         .ava{
                             height: 100px;
@@ -185,8 +213,57 @@ body,html{
                                 display: flex;
 
                                 flex-direction: row;
+                                justify-content: center;
+
+                                .b{
+                                    display: flex;
+                                    
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+
+                                    padding: 14px 10px;
+
+                                    background-color: gray;
+
+                                    border: 0.5px solid black;
+                                    h3{
+                                        @include font(15px, sans-serif);
+                                        font-weight: lighter;
+                                    }
+                                    p{
+                                        @include font(15px, sans-serif);
+                                        font-weight: lighter;
+                                    }
+                                }
                             }
                         }
+                    }
+                    
+                    .card-2{
+                        flex: 1;
+
+                        input{
+                            background: $bg-note;
+
+                            border-radius: 5px;
+                            border: 1px solid black;
+                        }
+                        .txtBox{
+                            @include font(15px, sans-serif);
+                            background: $bg-note;
+
+                            margin-top: 2%;
+
+                            resize: none;
+
+                            padding: 14px 10px;
+
+                            border-radius: 10px;
+                        }
+                    }
+                    .card-3{
+                        flex: 1;
                     }
                 }
             }
