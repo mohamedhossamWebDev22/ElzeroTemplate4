@@ -1,3 +1,5 @@
+$bg-color : rgb(238, 238, 238);
+
 @mixin font($size, $family) {
     font-size: $size;
     font-family: $family;
@@ -6,7 +8,10 @@
 body,html{
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
-    background: lightgray;
+    
+    text-align: right;
+
+    background: $bg-color;
 }
 
 .nav{
@@ -29,8 +34,11 @@ body,html{
 
     align-items: center;
 
-    box-shadow: 1px 0px 120px black;
+    box-shadow: 1px 0px 20px black;
 
+    z-index: 999999999;
+
+    animation:navWHovR 1s;
     h1{
         @include font(20px, sans-serif);
 
@@ -59,10 +67,15 @@ body,html{
 
             margin: 0px 5px;
         }
+
+        &:hover{
+            border-radius: 50px;
+            background-color: $bg-color;
+        }
     }
 
     &:hover{
-        animation: navWHov 2s;
+        animation:forwards navWHov 2s;
 
         .txt{
             display: block;
@@ -71,28 +84,40 @@ body,html{
 }
 
 @keyframes navWHov {
-    50%{
+    100%{
         width: 15%;
     }
 }
-
+@keyframes navWHovR {
+    from{width: 15%;}
+    to{
+        width: 10%;
+    }
+}
 
 .content{
     .top{
         top: 0;
         right: 0;
 
+        position: fixed;
+        
+        width: 100%;
+        height: 45px;
+
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
 
-        padding: 14px 10px;
+        padding: 5px 5px;
 
         background-color: white;
+
+        box-shadow: 0px 2px 10px black;
         img{
-            width: 60px;
-            height: 60px;
+            width: 40px;
+            height: 40px;
             border-radius: 50%;
         }
 
@@ -106,4 +131,66 @@ body,html{
             padding: 4px 5px;
         }
     }
+
+    .none{
+        margin-top: 60px;
+
+        float: right;
+
+        width: 85%;
+
+        .dashboard{
+            text-align: left;
+
+            h1{
+                @include font(30px, sans-serif);
+                
+                border-bottom: 4px solid white;
+
+                width: 25%;
+                a{
+                    border-bottom: 4px solid black;
+                }
+            }
+
+            .cards{
+                display: flex;
+                flex-direction: column;
+
+                .row{
+                    display: flex;
+
+                    flex-direction: row;
+                }
+                .row-1{
+                    .card-1{
+                        background-color: white;
+
+                        border-radius: 30px;
+                        border: 2px solid white;
+                        .image{
+                            background-color: lightgray;
+                            margin: 5px 5px;
+
+                            border-top-right-radius: 30px;
+                            border-top-left-radius: 30px;
+                        }
+                        .ava{
+                            height: 100px;
+                        }
+                        .txt{
+                            @include font(20px, sans-serif);
+                            
+                            .one{
+                                display: flex;
+
+                                flex-direction: row;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
+
