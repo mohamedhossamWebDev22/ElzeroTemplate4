@@ -397,6 +397,61 @@ body, html {
 .content .none .dashboard .cards .row-2 .Tcard1 .square .second .two .fa-solid {
   color: rgb(255, 8, 0);
 }
+.content .none .dashboard .cards .row-2 .Tcard2 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: 0px 2px 2px black;
+  border-radius: 8px;
+  margin: 4px 2px;
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC div {
+  margin: 4px 2px;
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC img {
+  width: 90px;
+  border-radius: 10px;
+  padding: 4px 2px;
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC .txt h3 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC .txt p {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: rgb(143, 143, 143);
+}
+.content .none .dashboard .cards .row-2 .Tcard2 .news .newsC .time a {
+  font-size: 10px;
+  font-family: sans-serif;
+  color: black;
+  background: rgb(182, 182, 182);
+  white-space: nowrap;
+  padding: 5px 2px;
+  border-radius: 10px;
+}
+.content .none .dashboard .cards .row-2 .Tcard3 .tasks .task {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 2px 2px black;
+  border-radius: 8px;
+  padding: 8px 4px;
+  margin: 8px 4px;
+}
+.content .none .dashboard .cards .row-2 .Tcard3 .tasks .task .txt h5 {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-2 .Tcard3 .tasks .task .txt .small {
+  font-size: 10px;
+  font-family: sans-serif;
+}
 
 @-webkit-keyframes rotate {
   from {

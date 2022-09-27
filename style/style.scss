@@ -506,6 +506,82 @@ body,html{
                             }
                         }
                     }
+                    .Tcard2{
+                        flex: 1;
+                        .news{
+                            .newsC{
+                                display: flex;
+
+                                flex-direction: row;
+                                align-items: center;
+
+                                box-shadow: 0px 2px 2px black;
+                                border-radius: 8px;
+
+                                margin: 4px 2px;
+
+                                div{
+                                    margin: 4px 2px;
+                                }
+
+                                img{
+                                    width: 90px;
+
+                                    border-radius: 10px;
+
+                                    padding: 4px 2px;
+                                }
+                                .txt{
+                                    h3{
+                                        @include font(12px, sans-serif);
+                                    }
+                                    p{
+                                        @include font(10px, sans-serif);
+                                        color: rgb(143, 143, 143);
+                                    }
+                                }
+                                .time{
+                                    a{
+                                        @include font(10px, sans-serif);
+
+                                        color: black;
+                                        background: $bg-note;
+
+                                        white-space: nowrap;
+
+                                        padding: 5px 2px;
+
+                                        border-radius: 10px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .Tcard3{
+                        .tasks{
+                            .task{
+                                display: flex;
+
+                                flex-direction: row;
+                                justify-content:space-between;
+                                align-items: center;
+
+                                box-shadow: 0px 2px 2px black;
+                                border-radius: 8px;
+
+                                padding: 8px 4px;
+                                margin: 8px 4px;
+                                .txt{
+                                    h5{
+                                        @include font(12px, sans-serif);
+                                    }
+                                    .small{
+                                        @include font(10px, sans-serif);
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
