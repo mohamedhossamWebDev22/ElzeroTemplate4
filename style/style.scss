@@ -583,6 +583,107 @@ body,html{
                         }
                     }
                 }
+                .row-3{
+                    .card{
+                        @include font(20px, sans-serif);
+                        background-color: white;
+    
+                        border-radius: $border-r;
+    
+                        flex: 1;
+    
+                        padding: 5px 10px;
+                        margin: 10px 10px;
+                    }
+
+                    .THcard1{      
+                        flex: 1;      
+                        h3{
+                            @include font(20px, sans-serif);
+                        }
+                        .words{
+                            .word1{
+                                @include font(13px, sans-serif);
+
+                                display: flex;
+
+                                flex-direction: row;
+
+                                justify-content: space-between;
+                                align-items: center;
+
+                                color: rgb(143, 143, 143);
+                            }
+                            .word{
+                                @extend .word1;
+                                @include font(13px, sans-serif);
+
+                                color: black;
+
+                                .num{
+                                    @include font(13px, sans-serif);
+
+                                    background: rgb(165, 165, 165);
+
+                                    border-radius: 10%;
+
+                                    padding: 2px 4px;
+                                }
+                            }
+                        }
+                    }
+                    .THcard2{
+                        flex:1;
+                        h3{
+                            @include font(15px, sans-serif);
+                        }
+                        .uploads{
+                            display: flex;
+
+                            flex-direction: column;
+                            .file{
+                                display:flex;
+
+                                flex-direction: row;
+
+                                justify-content: space-between;
+                                align-items: center;
+
+                                .image{
+                                    text-align:center;
+
+                                    padding: 4px 4px;
+                                    margin: 5px 4px;
+                                    img{
+                                        width: 88px;
+                                    }
+                                }
+                                .txt{
+                                    h3{
+                                        @include font(15px, sans-serif);
+                                    }
+                                    p{
+                                        @include font(12px, sans-serif);
+                                    }
+                                }
+                                .size{
+                                    p{
+                                        @include font(13px, sans-serif);
+
+                                        background: rgb(143, 143, 143);
+
+                                        padding: 5px 2px;
+
+                                        border-radius: 10%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .THcard3{
+                    flex: 1;
+                }
             }
         }
     }

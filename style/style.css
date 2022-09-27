@@ -452,6 +452,86 @@ body, html {
   font-size: 10px;
   font-family: sans-serif;
 }
+.content .none .dashboard .cards .row-3 .card {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  flex: 1;
+  padding: 5px 10px;
+  margin: 10px 10px;
+}
+.content .none .dashboard .cards .row-3 .THcard1 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-3 .THcard1 h3 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-3 .THcard1 .words .word1, .content .none .dashboard .cards .row-3 .THcard1 .words .word {
+  font-size: 13px;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(143, 143, 143);
+}
+.content .none .dashboard .cards .row-3 .THcard1 .words .word {
+  font-size: 13px;
+  font-family: sans-serif;
+  color: black;
+}
+.content .none .dashboard .cards .row-3 .THcard1 .words .word .num {
+  font-size: 13px;
+  font-family: sans-serif;
+  background: rgb(165, 165, 165);
+  border-radius: 10%;
+  padding: 2px 4px;
+}
+.content .none .dashboard .cards .row-3 .THcard2 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-3 .THcard2 h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads {
+  display: flex;
+  flex-direction: column;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file .image {
+  text-align: center;
+  padding: 4px 4px;
+  margin: 5px 4px;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file .image img {
+  width: 88px;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file .txt h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file .txt p {
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-3 .THcard2 .uploads .file .size p {
+  font-size: 13px;
+  font-family: sans-serif;
+  background: rgb(143, 143, 143);
+  padding: 5px 2px;
+  border-radius: 10%;
+}
+.content .none .dashboard .cards .THcard3 {
+  flex: 1;
+}
 
 @-webkit-keyframes rotate {
   from {
