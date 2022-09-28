@@ -683,6 +683,34 @@ body,html{
                 }
                 .THcard3{
                     flex: 1;
+                    .progress{
+                        display:flex;
+
+                        flex-direction: row;
+
+                        justify-content: left;
+                        align-items: center;
+                        .line{
+                            color: rgb(0, 81, 255);
+                            background: rgb(0, 81, 255);
+
+                            height: 100%;
+                            p{
+                                height: 100%;
+
+                                font-size: 40px;
+                                font-weight: light;
+                            }
+                        }
+                        .txt{
+                            p{
+                                @include font(13px, sans-serif);
+                                font-weight: bold;
+
+                                margin-left: 2px;
+                            }
+                        }
+                    }
                 }
             }
         }

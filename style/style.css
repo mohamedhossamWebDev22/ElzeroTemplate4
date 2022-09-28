@@ -532,6 +532,28 @@ body, html {
 .content .none .dashboard .cards .THcard3 {
   flex: 1;
 }
+.content .none .dashboard .cards .THcard3 .progress {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+}
+.content .none .dashboard .cards .THcard3 .progress .line {
+  color: rgb(0, 81, 255);
+  background: rgb(0, 81, 255);
+  height: 100%;
+}
+.content .none .dashboard .cards .THcard3 .progress .line p {
+  height: 100%;
+  font-size: 40px;
+  font-weight: light;
+}
+.content .none .dashboard .cards .THcard3 .progress .txt p {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 2px;
+}
 
 @-webkit-keyframes rotate {
   from {
