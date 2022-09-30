@@ -770,10 +770,23 @@ body,html{
 
                                     font-size: 50px;
                                 }
+                                .txt{
+                                    h3{
+                                        @include font(15px, sans-serif);
+                                    }
+                                    p{
+                                        @include font(12px, sans-serif);
+
+                                        color: rgb(143, 143, 143);
+                                    }
+                                }
                             }
                         }
                     }
                     .Fcard2{
+                        flex: 1;
+                    }
+                    .Fcard3{
                         flex: 1;
                     }
                 }

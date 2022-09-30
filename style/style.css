@@ -609,7 +609,19 @@ body, html {
   height: 100%;
   font-size: 50px;
 }
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .txt h3 {
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .txt p {
+  font-size: 12px;
+  font-family: sans-serif;
+  color: rgb(143, 143, 143);
+}
 .content .none .dashboard .cards .row-4 .Fcard2 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 {
   flex: 1;
 }
 
