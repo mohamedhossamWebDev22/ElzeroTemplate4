@@ -5,6 +5,23 @@
     font-family: $family;
 }
 
+.row{
+    display: flex;
+
+    flex-direction: row;
+}
+.card{
+    @include font(20px, sans-serif);
+    background-color: white;
+
+    border-radius: $border-r;
+
+    flex: 1;
+
+    padding: 5px 10px;
+    margin: 10px 10px;
+}
+
 body,html{
     scroll-behavior: smooth;
     -webkit-scroll-behavior: smooth;
@@ -595,6 +612,7 @@ body,html{
                         padding: 5px 10px;
                         margin: 10px 10px;
                     }
+                    
 
                     .THcard1{      
                         flex: 1;      
@@ -710,6 +728,53 @@ body,html{
                                 margin-left: 2px;
                             }
                         }
+                    }
+                }
+                .row{
+                    display: flex;
+
+                    flex-direction: row;
+                }
+
+                .row-4{       
+                    .card{
+                        flex:0;
+                    }                              
+                    .Fcard1{    
+                        flex: 1;                    
+                        .reminders{
+                            display: flex;
+
+                            flex-direction: column;
+
+                            justify-content: left;
+                            .reminder{
+                                display: flex;
+
+                                flex-direction: row;
+
+                                align-items: center;
+                                .blue{color: rgb(0, 110, 255);}
+                                .green{color: rgb(0, 128, 6);}
+                                .gold{color: rgb(218, 131, 32);}
+                                .crimson{color:crimson;}
+
+                                .dot{
+                                    .fa-solid{
+                                        font-size: 20px;
+                                        font-weight: bold;
+                                    }
+                                }
+                                .col{                                    
+                                    height: 100%;
+
+                                    font-size: 50px;
+                                }
+                            }
+                        }
+                    }
+                    .Fcard2{
+                        flex: 1;
                     }
                 }
             }

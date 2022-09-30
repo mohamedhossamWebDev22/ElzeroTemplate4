@@ -1,3 +1,18 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  font-size: 20px;
+  font-family: sans-serif;
+  background-color: white;
+  border-radius: 10px;
+  flex: 1;
+  padding: 5px 10px;
+  margin: 10px 10px;
+}
+
 body, html {
   scroll-behavior: smooth;
   -webkit-scroll-behavior: smooth;
@@ -553,6 +568,49 @@ body, html {
   font-family: sans-serif;
   font-weight: bold;
   margin-left: 2px;
+}
+.content .none .dashboard .cards .row {
+  display: flex;
+  flex-direction: row;
+}
+.content .none .dashboard .cards .row-4 .card {
+  flex: 0;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 {
+  flex: 1;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .blue {
+  color: rgb(0, 110, 255);
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .green {
+  color: rgb(0, 128, 6);
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .gold {
+  color: rgb(218, 131, 32);
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .crimson {
+  color: crimson;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .dot .fa-solid {
+  font-size: 20px;
+  font-weight: bold;
+}
+.content .none .dashboard .cards .row-4 .Fcard1 .reminders .reminder .col {
+  height: 100%;
+  font-size: 50px;
+}
+.content .none .dashboard .cards .row-4 .Fcard2 {
+  flex: 1;
 }
 
 @-webkit-keyframes rotate {
