@@ -670,14 +670,96 @@ body, html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  margin: 3px 4px;
 }
 .content .none .dashboard .cards .row-4 .Fcard3 .links .link .icons-names {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .content .none .dashboard .cards .row-4 .Fcard3 .links .link .icons-names .fa-brands {
   margin: 2px 4px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .facebook {
+  background: lightblue;
+  color: blue;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .facebook .icons-names a {
+  padding: 4px 4 px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .facebook .icons-names .fa-brands {
+  background: blue;
+  color: white;
+  padding: 5px 6px;
+  margin: 0;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .facebook button {
+  background: rgb(0, 81, 255);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 4px 5px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .twitter {
+  background: lightblue;
+  color: blue;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .twitter .icons-names a {
+  padding: 4px 4 px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .twitter .icons-names .fa-brands {
+  background: blue;
+  color: white;
+  padding: 5px 6px;
+  margin: 0;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .twitter button {
+  background: rgb(0, 81, 255);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 4px 5px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .yt {
+  background: rgba(255, 0, 0, 0.534);
+  color: red;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .yt .icons-names a {
+  padding: 4px 4 px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .yt .icons-names .fa-brands {
+  background: red;
+  color: white;
+  padding: 5px 6px;
+  margin: 0;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .yt button {
+  background: red;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 4px 5px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .linkdein {
+  background: lightblue;
+  color: blue;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .linkdein .icons-names a {
+  padding: 4px 4 px;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .linkdein .icons-names .fa-brands {
+  background: blue;
+  color: white;
+  padding: 5px 6px;
+  margin: 0;
+}
+.content .none .dashboard .cards .row-4 .Fcard3 .links .linkdein button {
+  background: rgb(0, 81, 255);
+  color: white;
+  border: 1px solid black;
+  border-radius: 10%;
+  margin: 4px 5px;
 }
 .content .none .dashboard .cards .row-5 {
   content: "hi";

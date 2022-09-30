@@ -846,17 +846,122 @@ body,html{
 
                                 justify-content: space-between;
                                 align-items: center;
+
+                                margin: 3px 4px;
                                 .icons-names{
                                     display:flex;
                                     flex-direction: row;
 
                                     justify-content:space-between;
-                                    
+                                    align-items: center;
                                     .fa-brands{
                                         margin: 2px 4px;
                                     }
                                 }
                             }
+
+                            .facebook{
+                                background: lightblue;
+
+                                color: blue;
+                                .icons-names{
+                                    a{
+                                        padding: 4px 4  px;
+                                    }
+                                    .fa-brands{
+                                        background: blue;
+                                        color: white;
+
+                                        padding: 5px 6px;
+                                        margin: 0;
+                                    }
+                                }
+                                button{
+                                    background: rgb(0, 81, 255);
+                                    color:white;
+
+                                    border: 1px solid black;
+                                    border-radius: 10%;
+
+                                    margin: 4px 5px;
+                                }
+                            }                            
+                            .twitter{
+                                background: lightblue;
+                                color:blue;
+                                .icons-names{
+                                    a{
+                                        padding: 4px 4  px;
+                                    }
+                                    .fa-brands{
+                                        background: blue;
+                                        color: white;
+
+                                        padding: 5px 6px;
+                                        margin: 0;
+                                    }
+                                }
+                                button{
+                                    background: rgb(0, 81, 255);
+                                    color:white;
+
+                                    border: 1px solid black;
+                                    border-radius: 10%;
+
+                                    margin: 4px 5px;
+                                }
+                            }
+                            .yt{
+                                background: rgba(255, 0, 0, 0.534);
+                                color: red;
+                                .icons-names{
+                                    a{
+                                        padding: 4px 4  px;
+                                    }
+                                    .fa-brands{
+                                        background: red;
+                                        color: white;
+
+                                        padding: 5px 6px;
+                                        margin: 0;
+                                    }
+                                }
+                                button{
+                                    background: red;
+                                    color:white;
+
+                                    border: 1px solid black;
+                                    border-radius: 10%;
+
+                                    margin: 4px 5px;
+                                }
+                            }    
+                            .linkdein{
+                                background: lightblue;
+
+                                color: blue;
+                                .icons-names{
+                                    a{
+                                        padding: 4px 4  px;
+                                    }
+                                    .fa-brands{
+                                        background: blue;
+                                        color: white;
+
+                                        padding: 5px 6px;
+                                        margin: 0;
+                                    }
+                                }
+                                button{
+                                    background: rgb(0, 81, 255);
+                                    color:white;
+
+                                    border: 1px solid black;
+                                    border-radius: 10%;
+
+                                    margin: 4px 5px;
+                                }
+                            }              
                         }
                     }
                 }
