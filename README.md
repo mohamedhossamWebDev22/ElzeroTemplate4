@@ -7,7 +7,7 @@
 </h3>
 
 <h4 align="center">
-	Status: 🚧 In Construction
+	Status: ✔ Finished.
 </h4>
 
 <p align="center">
@@ -23,6 +23,20 @@ that's will be a big project for me and test for my skills.
 
 template:
 https://elzero.org/html-css-template-4-preview/
+
+## Code
+<img src="./imgs/code.png" align="left">
+
+## WebSite
+<img src="./imgs/website6.png" align="left">
+
+<img src="./imgs/website4.png" align="left">
+
+<img src="./imgs/website3.png" align="left">
+
+<img src="./imgs/website2.png" align="left">
+
+<img src="./imgs/website1.png" align="left">
 
 ## Tech Stack
 <img src="https://img.shields.io/badge/Css3-05122A?style=flat&logo=css3" alt="css3 Badge" height="25">&nbsp;
