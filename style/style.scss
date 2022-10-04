@@ -966,7 +966,49 @@ body,html{
                     }
                 }
                 .row-5{
-                    content: 'hi';
+                    .FIcard{
+                        table{
+                            width:100%;
+                            .Table-Head{
+                                background: rgb(143, 143, 143);
+                                th{
+                                    border:5px solid rgb(143, 143, 143);
+                                }                                
+                            }
+                            td{
+                                padding: 6px 5px;
+                                border:1px solid #777;
+                            }
+                            .Status{
+                                p{
+                                    @include font(12px,sans-serif);
+
+                                    font-weight: bold;
+
+                                    color: white;
+
+                                    border-radius: 10px;
+                                    border: 1px solid rgb(0,0,0,0);
+
+                                    padding: 4px 2px;
+
+                                    text-align: center;
+                                }
+                                .pending{
+                                    background: goldenrod;
+                                }
+                                .pr{
+                                    background: blue;
+                                }
+                                .complete{
+                                    background: green;
+                                }
+                                .rej{
+                                    background: crimson;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }
